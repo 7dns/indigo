@@ -1,0 +1,40 @@
+.controlContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.viewControl,
+.skyboxControl,
+.videoControl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
+    margin-bottom: 1.0em;
+    width: 100%;
+}
+
+.skyboxControl,
+.videoControl {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fogControl {
+    margin: 1.5em 0;
+    width: 100%;
+}
+
+label[for="fogSlider"] {
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
+#fogSlider {
+    width: 83%;
+}
+
+#toggleCameraContainerButton {
+    margin-top: 1em;
+}

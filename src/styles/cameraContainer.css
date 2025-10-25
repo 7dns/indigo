@@ -1,0 +1,70 @@
+.cameraContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    min-width: 250px;
+    max-width: 350px;
+    transition: opacity 0.25s;
+}
+
+.cameraContainer fieldset {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    background-color: var(--secondary-background-color);
+}
+
+.cameraContainer fieldset:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.cameraContainer fieldset:nth-of-type(4) label {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    gap: 0.5em;
+    text-align: right;
+}
+
+.cameraContainer legend {
+    color: var(--secondary-color);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+}
+
+.cameraContainer label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.cameraContainer input[type="number"] {
+    width: 5em;
+    background: var(--primary-text-color);
+    color: var(--secondary-background-color);
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.2em 0.4em;
+    font-family: monospace, sans-serif;
+    font-size: 1em;
+}
+
+.cameraContainer input[type="number"]:focus {
+    background: var(--secondary-color);
+    color: var(--secondary-text-color);
+    outline: none;
+}
+
+.cameraContainer button {
+    margin-top: 0.5em;
+}
+
+.cameraContainer.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

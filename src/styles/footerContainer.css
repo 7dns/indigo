@@ -1,0 +1,23 @@
+.footerContainer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background: var(--secondary-background-color);
+    color: var(--tertiary-text-color);
+    text-align: center;
+    padding: 0.7em 0;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 100;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.footerContainer p {
+    margin: 0;
+    display: inline;
+}
