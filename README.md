@@ -12,10 +12,10 @@ The scene was developed and tested in Mozilla Firefox. For the best experience, 
 
 The control panel to the right of the 3D scene allows you to manage several functions: you can switch between preset camera perspectives, adjust the fog, select a skybox, choose a video for Planet 06, and enable additional camera controls.
 
-Additional camera settings appear after clicking to the left of the 3D scene. There, you can manually define the camera’s position, target, and up direction, as well as adjust the near plane, far plane, and field of view (fovy) parameters.
+Additional camera settings appear after clicking "Toggle Camera Controls" to the left of the 3D scene. There, you can manually define the camera’s position, target, and up direction, as well as adjust the near plane, far plane, and field of view (fovy) parameters.
 
 ## Scene Overview
-This interactive 3D scene simulates a solar system. The scene includes a sun, multiple planets with different textures, a UFO, and a gingerbread man. The planets orbit around the sun and rotate on their own axes. Lighting, fog, and bloom effects contribute to an atmospheric presentation. The background can be switched between various skybox textures (day, night/galaxy, dusk). The camera can be controlled via the user interface.
+This interactive 3D scene simulates a solar system. The scene includes a sun, multiple planets with different textures, a UFO, and a gingerbread man. The planets orbit around the sun and rotate on their own axes. Lighting, fog, and bloom effects contribute to an atmospheric presentation. The background can be switched between various skybox textures (day, dawn, night). The camera can be controlled via the user interface.
 
 Each planet demonstrates specific techniques:
 - Sun: Bloom
